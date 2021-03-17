@@ -1,0 +1,39 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:rgb(211, 199, 199);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  .sidebar a {
+    display: block;
+    color: #CC0000;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'arial';
+    text-decoration: underline;
+  }
+   
+  .sidebar a.active {
+    color: 666666;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    color:  #555;
+  }
+.card{
+    border-style: solid;
+    width: 166px;
+    background-color:#CC0000;
+    color: white;
+    padding: 20px;
+}
+  .link{
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
